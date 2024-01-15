@@ -2,11 +2,11 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-# @app.route('/')
-# def index():
-# 	return 'Hello World!'
+@app.route('/')
+def index():
+	return 'YES IT WORKS'
 
-@app.route('/', methods=['POST'])
+@app.route('/gimme', methods=['POST'])
 def result():
     print(request.data)  # raw data
     print(request.json)  # json (if content-type of application/json is sent with the request)
