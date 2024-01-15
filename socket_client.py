@@ -1,7 +1,7 @@
 import socket  # Importing the socket module to create network sockets
 
 # Defining the host and port to connect to
-HOST = '127.0.0.1'  # Localhost IP address
+HOST = '35.157.117.28'  # Localhost IP address
 PORT = '8080'  # Port number to connect to
 
 # Creating a socket object for the client
