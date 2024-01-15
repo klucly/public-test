@@ -2,7 +2,7 @@ import socket  # Importing the socket module to create network sockets
 
 # Defining the host and port to listen on
 HOST = '0.0.0.0'  # Localhost IP address
-PORT = '8080'  # Port number to listen on
+PORT = '10000'  # Port number to listen on
 
 # Creating a socket object for the server
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
